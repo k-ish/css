@@ -1,0 +1,26 @@
+// flex box
+
+
+// bese
+
+@mixin flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+// order
+
+@mixin flex-order($num) {
+  order: $num;
+}
+
+
+
+// grow
+
+@mixin flex-grow($num) {
+  order: $num;
+}
