@@ -13,7 +13,10 @@
   @return mix(#fff, $color, $weight);
 }
 
-
+// 引数の単位を削除し、値のみ返す
+@function strip-units($number){
+	@return $number / ($number * 0 + 1);
+}
 
 
 
