@@ -75,3 +75,23 @@ $theme-colors: map-merge((
   "light":      $light,
   "dark":       $dark
 ), $theme-colors);
+
+
+// color extend
+// ---------------------------------------------------
+
+// base
+$base-color: #F4CA55 !default;
+
+// complementary
+$complement-color: complement($base-color);
+
+// triad
+$triad-01: $base-color !default;
+$triad-02: adjust-hue($base-color, 120deg) !default;
+$triad-03: adjust-hue($base-color, -140deg) !default;
+
+// split complementary
+$split-01: $base-color !default;
+$split-02: adjust-hue(complement($base-color), 10deg) !default;
+$split-03: adjust-hue(complement($base-color), -10deg) !default;
