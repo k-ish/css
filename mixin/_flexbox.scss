@@ -72,5 +72,5 @@
 // grow
 
 @mixin flex-grow($num) {
-  order: $num;
+  flex-grow: $num;
 }
