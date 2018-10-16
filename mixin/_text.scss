@@ -56,6 +56,11 @@
   white-space: nowrap;
 }
 
+// マーカー
+@mixin marker($color:#fff325, ) {
+  background: linear-gradient(transparent 60%, $color 0%);
+}
+
 // @mixin font-face($font, $path, $type,) {
 
 // }
