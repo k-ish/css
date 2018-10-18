@@ -27,6 +27,7 @@
 @import "mixin/border";
 @import "mixin/rhythm";
 @import "mixin/background";
+@import "mixin/form";
 
 // @import "mixin/guide";
 
@@ -36,6 +37,8 @@
 @import "component/heading";
 @import "component/media";
 @import "component/list";
+@import "component/dl";
+
 
 // utility
 @import "utilitys/grid";
